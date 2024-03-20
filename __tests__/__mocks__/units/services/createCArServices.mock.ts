@@ -1,4 +1,4 @@
-const createCarControllerMock = {
+const createCarServicesMock = {
     body: {
         name: "Subaru",
         description: "WRX STI"||null,
@@ -16,4 +16,4 @@ const createCarControllerMock = {
     },
 };
 
-export { createCarControllerMock };
+export { createCarServicesMock };
