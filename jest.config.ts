@@ -8,7 +8,7 @@ import type {Config} from 'jest';
 const config: Config = {
   preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["**/_test_/(units|integrations|example)/**/*.test.[jt]s?(x)"]
+  testMatch: ["**/__test__/(units|integrations)/**/*.test.[jt]s?(x)"]
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 

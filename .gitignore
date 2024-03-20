@@ -1,5 +1,5 @@
 node_modules
 *lock*
 
-.env.dev
+.env.test
 .env.example
